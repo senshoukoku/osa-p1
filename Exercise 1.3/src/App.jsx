@@ -26,6 +26,7 @@ const App = () => {
       <p>{part1[0].name} {part1[0].exercises}</p>
       <p>{part2[0].name} {part2[0].exercises}</p>
       <p>{part3[0].name} {part3[0].exercises}</p>
+      <p>Number of exercises: {part1[0].exercises + part2[0].exercises + part3[0].exercises}</p>
     </div>
   )
 }
